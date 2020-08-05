@@ -7,7 +7,7 @@ function writeCards (nameList, eventName) {
     return cards
   }
   
-  function countDown(positiveInteger) {
+  function countDown() {
     let i = positiveInteger
     while (i >= 0) {
       i--
