@@ -6,3 +6,11 @@ function writeCards (nameList, eventName) {
     }
     return cards
   }
+  
+  function countDown(positiveInteger) {
+    let i = positiveInteger
+    while (i >= 0) {
+      i--
+      console.log(i)
+    }
+  }
