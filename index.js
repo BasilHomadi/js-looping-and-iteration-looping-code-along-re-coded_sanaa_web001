@@ -1,11 +1,11 @@
 // Code your solutions in this file
-function writeCards (nameList, eventName) {
-    let cards = []
-    for(let i = 0; i < nameList.length; i++) {
-      cards.push("Thank you, ${nameList[i]}, for the wonderful ${eventName} gift!")
-    }
-    return cards
+function writeCards( namesArray, event ) {
+  let thankYouCards = []
+  for ( let i = 0; i < namesArray.length; i++ ) {
+    thankYouCards.push( `Thank you, ${namesArray[i]}, for the wonderful ${event} gift!` )
   }
+  return thankYouCards
+}
   
   function countDown(positiveInteger) {
     let i = positiveInteger
